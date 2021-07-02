@@ -1,0 +1,22 @@
+/* BREAK POINT */
+/* PC */
+@media (min-width: 1024px) {
+}
+/* Tablet */
+@media (max-width: 1023) and (min-width: 740) {
+}
+/* Mobile */
+@media (max-width: 739px) {
+  header nav > ul > li {
+    display: block;
+  }
+  /* header nav {
+    display: block;
+  } */
+  header #search {
+    display: none;
+  }
+  header #mobile-menu-btn {
+    display: block;
+  }
+}
